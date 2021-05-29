@@ -1,0 +1,46 @@
+{
+  "browser": {
+    "url": "http://$#WFE_HOST#$:$#WFE_PORT#$/web?wcid=1e348bd6ab43ce8a:b0779e2a64c22907"
+  },
+  "cmd": {
+    "default": {
+      "build": "-f $#CK_PATH#$/Dockerfile$#CK_TAG_DOT#$ -t $#CK_DOCKER_ORGANIZATION#$/$#CK_DOCKER_NAME#$$#CK_TAG_COLON#$ $#CK_PATH#$",
+      "push": "$#CK_DOCKER_ORGANIZATION#$/$#CK_DOCKER_NAME#$$#CK_TAG_COLON#$",
+      "run": "--rm -it $#CK_DOCKER_ORGANIZATION#$/$#CK_DOCKER_NAME#$$#CK_TAG_COLON#$",
+      "run_extra_cmd": "--env CK_HOST=0.0.0.0 --env WFE_HOST=localhost --env CK_PORT=$#CK_PORT#$ --env WFE_PORT=$#CK_PORT#$ -p $#CK_PORT#$:$#CK_PORT#$"
+    }
+  },
+  "convert_input_to_vars": {
+    "CK_HOST": {
+      "default": "0.0.0.0",
+      "key": "CK_HOST"
+    },
+    "CK_PORT": {
+      "default": "3344",
+      "key": "CK_PORT"
+    },
+    "WFE_HOST": {
+      "default": "localhost",
+      "key": "WFE_HOST"
+    },
+    "WFE_PORT": {
+      "default": "3344",
+      "key": "WFE_PORT"
+    }
+  },
+  "docker_tags": [
+    "ubuntu-20.04-server",
+    "ubuntu-20.04-bash"
+  ],
+  "tags": [
+    "adaptive-container",
+    "ck"
+  ],
+  "tested": [
+    {
+      "email": "grigori@octoml.ai",
+      "iso_datetime": "2021-05-26T09:46:43.456318",
+      "name": "Grigori Fursin"
+    }
+  ]
+}

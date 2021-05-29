@@ -1,0 +1,22 @@
+20210521:
+  * regular update of stable components
+
+20210418:
+  * removed modules (they are now in the CK default repo: 
+    https://github.com/ctuning/ck/tree/master/ck/repo/module
+
+20210416:
+  * [gfursin] extended module:package to ask a user to select a variation 
+    for a given package when there are multiple versions available.
+
+20210403:
+  * [gfursin] fixed TFLite packages 1.13, 1.14 and 1.15 (eigen library).
+     https://github.com/ctuning/ck/issues/138
+     https://github.com/ctuning/ck/issues/139
+
+20210324:
+  * [sztaylor] fix cpu & gpu set_freq commands
+
+20210226: 
+  * improvements from Arm to 2 CK modules: platform.cpu and platform.gpu:
+    https://github.com/ctuning/ck-env/pull/113
