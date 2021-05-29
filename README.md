@@ -16,21 +16,9 @@ to collect all the main CK components related to AI and ML Systems in one place.
 These components are also uploaded to the [cKnowledge.io platform](https://cKnowledge.io) 
 similar to PyPI to help you search for specific components and see their connections!*
 
-This repository contains a collection of **stable** CK components 
+This repository contains a collection of minimal CK components 
 for ML systems in the [CK format](https://arxiv.org/pdf/2011.01149.pdf)
 hosted by the [non-profit cTuning foundation](https://cTunin.org):
-
-* CK modules with automation actions: [[list](https://github.com/ctuning/ck/tree/master/ck/repo/module)]
-* CK program workflows: [[list]( https://cKnowledge.io/programs )]
-* CK meta packages: [[list]( https://cKnowledge.io/packages )]
-* CK software detection: [[list]( https://cKnowledge.io/soft )]
-* CK datasets: [[list]( https://cKnowledge.io/c/dataset )]
-* CK adaptive containers: [[list]( https://cKnowledge.io/c/docker )]
-* CK OS: [[list]( https://cKnowledge.io/c/os )]
-* CK MLPerf&trade; system descriptions: [[list]( https://cKnowledge.io/c/sut )]
-* CK MLPerf&trade; benchmark CMD generators: [[list]( https://cKnowledge.io/c/cmdgen )]
-
-You can find **stable** CK components aggregated in [this repository](https://github.com/ctuning/ai).
 
 # Install and use CK framework
 * https://github.com/ctuning/ck
