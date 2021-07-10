@@ -28,6 +28,6 @@ install:
 build: false
 
 test_script:
-  - "ck pull repo:ai"
+  - "ck pull repo:ck-mlops"
 
 # TBD: add tests for Windows
