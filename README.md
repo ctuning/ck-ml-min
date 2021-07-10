@@ -3,7 +3,7 @@
 [![compatibility](https://github.com/ctuning/ck-guide-images/blob/master/ck-compatible.svg)](https://github.com/ctuning/ck)
 [![automation](https://github.com/ctuning/ck-guide-images/blob/master/ck-artifact-automated-and-reusable.svg)](https://cTuning.org/ae)
 
-Linux/MacOS: [![Travis Build Status](https://travis-ci.com/ctuning/ck-ml-min.svg)](https://travis-ci.org/ctuning/ck-ml-min)
+Linux/MacOS: [![Travis Build Status](https://travis-ci.com/ctuning/ck-ml-min.svg)](https://travis-ci.com/ctuning/ck-ml-min)
 Windows: [![Windows Build status](https://ci.appveyor.com/api/projects/status/4ry307jh6tks9dg9?svg=true)](https://ci.appveyor.com/project/gfursin/ck-ml-min)
 
 
